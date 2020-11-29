@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "orator"
+name = "orator-new"
 version = "0.9.9"
 description = "The Orator ORM provides a simple yet beautiful ActiveRecord implementation."
 
