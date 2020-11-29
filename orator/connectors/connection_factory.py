@@ -6,7 +6,8 @@ from ..exceptions.connectors import UnsupportedDriver
 from .mysql_connector import MySQLConnector
 from .postgres_connector import PostgresConnector
 from .sqlite_connector import SQLiteConnector
-from ..connections import MySQLConnection, PostgresConnection, SQLiteConnection
+from .empty_connector import EmptyConnector
+from ..connections import MySQLConnection, PostgresConnection, SQLiteConnection, EmptyConnection
 
 
 class ConnectionFactory(object):
@@ -16,6 +17,7 @@ class ConnectionFactory(object):
         "mysql": MySQLConnector,
         "postgres": PostgresConnector,
         "pgsql": PostgresConnector,
+        "empty": EmptyConnector,
     }
 
     CONNECTIONS = {
@@ -23,6 +25,7 @@ class ConnectionFactory(object):
         "mysql": MySQLConnection,
         "postgres": PostgresConnection,
         "pgsql": PostgresConnection,
+        "empty": EmptyConnection
     }
 
     def make(self, config, name=None):
