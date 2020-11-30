@@ -2,9 +2,9 @@
 
 from ... import OratorTestCase
 from . import IntegrationTestCase, User, Post
-from orator import Model
-from orator.connections import SQLiteConnection
-from orator.connectors.sqlite_connector import SQLiteConnector
+from lorator import Model
+from lorator.connections import SQLiteConnection
+from lorator.connectors.sqlite_connector import SQLiteConnector
 
 
 class SchemaBuilderSQLiteIntegrationTestCase(IntegrationTestCase, OratorTestCase):

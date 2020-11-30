@@ -5,10 +5,10 @@ import glob
 import inspect
 from flexmock import flexmock, flexmock_teardown
 from .. import OratorTestCase
-from orator.migrations import Migrator, DatabaseMigrationRepository, Migration
-from orator import DatabaseManager
-from orator.connections import Connection
-from orator.utils import PY3K
+from lorator.migrations import Migrator, DatabaseMigrationRepository, Migration
+from lorator import DatabaseManager
+from lorator.connections import Connection
+from lorator.utils import PY3K
 
 
 class MigratorTestCase(OratorTestCase):

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from orator import Model
-from orator.orm import (
+from lorator import Model
+from lorator.orm import (
     has_one,
     has_many,
     belongs_to,
@@ -9,8 +9,8 @@ from orator.orm import (
     morph_to,
     morph_many,
 )
-from orator import QueryExpression
-from orator.dbal.exceptions import ColumnDoesNotExist
+from lorator import QueryExpression
+from lorator.dbal.exceptions import ColumnDoesNotExist
 
 
 class IntegrationTestCase(object):

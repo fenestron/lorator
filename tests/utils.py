@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
 from . import mock
-from orator.connections.connection_interface import ConnectionInterface
-from orator.query.processors.processor import QueryProcessor
-from orator.database_manager import DatabaseManager
-from orator.connectors.connection_factory import ConnectionFactory
-from orator.query.builder import QueryBuilder
-from orator.orm.model import Model
+from lorator.connections.connection_interface import ConnectionInterface
+from lorator.query.processors.processor import QueryProcessor
+from lorator.database_manager import DatabaseManager
+from lorator.connectors.connection_factory import ConnectionFactory
+from lorator.query.builder import QueryBuilder
+from lorator.orm.model import Model
 
 
 class MockConnection(ConnectionInterface):

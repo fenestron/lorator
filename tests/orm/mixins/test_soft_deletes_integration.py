@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from ... import OratorTestCase
-from orator import DatabaseManager, SoftDeletes, Model
-from orator.orm import has_many
-from orator.query import QueryBuilder
-from orator.pagination import Paginator
+from lorator import DatabaseManager, SoftDeletes, Model
+from lorator.orm import has_many
+from lorator.query import QueryBuilder
+from lorator.pagination import Paginator
 
 
 class SoftDeletesIntegrationTestCase(OratorTestCase):

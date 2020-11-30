@@ -5,10 +5,10 @@ import pendulum
 from flexmock import flexmock, flexmock_teardown
 from ... import OratorTestCase
 
-from orator.query.builder import QueryBuilder
-from orator.orm.builder import Builder
-from orator.orm.model import Model
-from orator.orm.relations import HasOne
+from lorator.query.builder import QueryBuilder
+from lorator.orm.builder import Builder
+from lorator.orm.model import Model
+from lorator.orm.relations import HasOne
 
 
 class OrmRelationTestCase(OratorTestCase):

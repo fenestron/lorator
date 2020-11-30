@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from .. import OratorTestCase
-from orator.support.fluent import Fluent
+from lorator.support.fluent import Fluent
 
 
 class FluentTestCase(OratorTestCase):

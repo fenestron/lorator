@@ -3,9 +3,9 @@
 import datetime
 import pendulum
 from flexmock import flexmock, flexmock_teardown
-from orator import Model, SoftDeletes
-from orator.orm import Builder
-from orator.query import QueryBuilder
+from lorator import Model, SoftDeletes
+from lorator.orm import Builder
+from lorator.query import QueryBuilder
 from ... import OratorTestCase
 
 

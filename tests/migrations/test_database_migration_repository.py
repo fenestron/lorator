@@ -2,11 +2,11 @@
 
 from flexmock import flexmock, flexmock_teardown
 from .. import OratorTestCase
-from orator.migrations import DatabaseMigrationRepository
-from orator import DatabaseManager
-from orator.query import QueryBuilder
-from orator.connections import Connection
-from orator.schema import SchemaBuilder
+from lorator.migrations import DatabaseMigrationRepository
+from lorator import DatabaseManager
+from lorator.query import QueryBuilder
+from lorator.connections import Connection
+from lorator.schema import SchemaBuilder
 
 
 class DatabaseMigrationRepositoryTestCase(OratorTestCase):

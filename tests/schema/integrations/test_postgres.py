@@ -2,8 +2,8 @@
 
 import os
 from ... import OratorTestCase
-from orator.connections import PostgresConnection
-from orator.connectors.postgres_connector import PostgresConnector
+from lorator.connections import PostgresConnection
+from lorator.connectors.postgres_connector import PostgresConnector
 from . import IntegrationTestCase
 
 
@@ -28,8 +28,8 @@ class DatabaseIntegrationConnectionResolver(object):
             password = None
         else:
             database = "orator_test"
-            user = "orator"
-            password = "orator"
+            user = "lorator"
+            password = "lorator"
 
         self._connection = PostgresConnection(
             PostgresConnector().connect(

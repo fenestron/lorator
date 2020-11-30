@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "orator-new"
+name = "lorator"
 version = "0.9.9"
 description = "The Orator ORM provides a simple yet beautiful ActiveRecord implementation."
 
@@ -11,7 +11,7 @@ authors = [
 
 readme = 'README.rst'
 
-repository = "https://github.com/fenestron/orator-new"
+repository = "https://github.com/fenestron/lorator"
 homepage = "https://orator-orm.com/"
 
 keywords = ['database', 'orm']

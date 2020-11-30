@@ -13,8 +13,8 @@ from .. import OratorTestCase
 from .. import mock
 from ..orm.models import User
 
-from orator.query.builder import QueryBuilder
-from orator.connections.connection import Connection
+from lorator.query.builder import QueryBuilder
+from lorator.connections.connection import Connection
 
 
 class ConnectionTestCase(OratorTestCase):

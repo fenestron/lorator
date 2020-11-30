@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from flexmock import flexmock, flexmock_teardown
-from orator import DatabaseManager
-from orator.connections import Connection
-from orator.seeds import Seeder
+from lorator import DatabaseManager
+from lorator.connections import Connection
+from lorator.seeds import Seeder
 from cleo import Output, Command as BaseCommand
 
 from .. import OratorTestCase

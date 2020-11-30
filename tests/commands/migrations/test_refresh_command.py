@@ -2,9 +2,9 @@
 
 import os
 from flexmock import flexmock
-from orator.migrations import Migrator
-from orator.commands.migrations import RefreshCommand
-from orator import DatabaseManager
+from lorator.migrations import Migrator
+from lorator.commands.migrations import RefreshCommand
+from lorator import DatabaseManager
 from .. import OratorCommandTestCase
 
 

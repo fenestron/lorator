@@ -8,8 +8,8 @@ import simplejson as json
 
 from datetime import datetime, timedelta, date
 from backpack import collect
-from orator import Model, Collection, DatabaseManager
-from orator.orm import (
+from lorator import Model, Collection, DatabaseManager
+from lorator.orm import (
     morph_to,
     has_one,
     has_many,
@@ -19,11 +19,11 @@ from orator.orm import (
     scope,
     accessor,
 )
-from orator.orm.relations import BelongsToMany
-from orator.exceptions.orm import ModelNotFound
+from lorator.orm.relations import BelongsToMany
+from lorator.exceptions.orm import ModelNotFound
 
 
-logger = logging.getLogger("orator.connection.queries")
+logger = logging.getLogger("lorator.connection.queries")
 logger.setLevel(logging.DEBUG)
 
 

@@ -7,17 +7,17 @@ from .. import mock
 
 from ..utils import MockConnection, MockProcessor
 
-from orator.exceptions import ArgumentError
-from orator.query.grammars import (
+from lorator.exceptions import ArgumentError
+from lorator.query.grammars import (
     QueryGrammar,
     PostgresQueryGrammar,
     SQLiteQueryGrammar,
     MySQLQueryGrammar,
 )
-from orator.query.builder import QueryBuilder
-from orator.query.expression import QueryExpression
-from orator.query.join_clause import JoinClause
-from orator.support import Collection
+from lorator.query.builder import QueryBuilder
+from lorator.query.expression import QueryExpression
+from lorator.query.join_clause import JoinClause
+from lorator.support import Collection
 
 
 class QueryBuilderTestCase(OratorTestCase):

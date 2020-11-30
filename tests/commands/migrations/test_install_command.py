@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from flexmock import flexmock
-from orator.migrations import DatabaseMigrationRepository
-from orator.commands.migrations import InstallCommand
+from lorator.migrations import DatabaseMigrationRepository
+from lorator.commands.migrations import InstallCommand
 from .. import OratorCommandTestCase
 
 

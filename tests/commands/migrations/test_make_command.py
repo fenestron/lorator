@@ -2,8 +2,8 @@
 
 import os
 from flexmock import flexmock
-from orator.migrations import MigrationCreator
-from orator.commands.migrations import MigrateMakeCommand
+from lorator.migrations import MigrationCreator
+from lorator.commands.migrations import MigrateMakeCommand
 from .. import OratorCommandTestCase
 
 

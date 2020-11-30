@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from ... import OratorTestCase
-from orator import Model as BaseModel
-from orator.orm import (
+from lorator import Model as BaseModel
+from lorator.orm import (
     morph_to,
     has_one,
     has_many,
@@ -10,9 +10,9 @@ from orator.orm import (
     morph_many,
     belongs_to,
 )
-from orator.orm.model import ModelRegister
-from orator.connections import SQLiteConnection
-from orator.connectors.sqlite_connector import SQLiteConnector
+from lorator.orm.model import ModelRegister
+from lorator.connections import SQLiteConnection
+from lorator.connectors.sqlite_connector import SQLiteConnector
 
 
 class DecoratorsTestCase(OratorTestCase):

@@ -17,8 +17,8 @@ class MySQLQmarkIntegrationTestCase(IntegrationTestCase, OratorTestCase):
             password = ""
         else:
             database = "orator_test"
-            user = "orator"
-            password = "orator"
+            user = "lorator"
+            password = "lorator"
 
         return {
             "default": "mysql",

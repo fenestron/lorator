@@ -6,15 +6,15 @@ from flexmock import flexmock, flexmock_teardown
 from ... import OratorTestCase
 from ...utils import MockConnection
 
-from orator.query.builder import QueryBuilder
-from orator.query.grammars import QueryGrammar
-from orator.query.processors import QueryProcessor
-from orator.query.expression import QueryExpression
-from orator.orm.builder import Builder
-from orator.orm.model import Model
-from orator.orm.relations import MorphToMany
-from orator.orm.relations.pivot import Pivot
-from orator.orm.collection import Collection
+from lorator.query.builder import QueryBuilder
+from lorator.query.grammars import QueryGrammar
+from lorator.query.processors import QueryProcessor
+from lorator.query.expression import QueryExpression
+from lorator.orm.builder import Builder
+from lorator.orm.model import Model
+from lorator.orm.relations import MorphToMany
+from lorator.orm.relations.pivot import Pivot
+from lorator.orm.collection import Collection
 
 
 class OrmMorphToManyTestCase(OratorTestCase):

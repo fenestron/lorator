@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from flexmock import flexmock, flexmock_teardown
-from orator.schema import Blueprint
-from orator.schema.grammars import SchemaGrammar
-from orator.connections import Connection
+from lorator.schema import Blueprint
+from lorator.schema.grammars import SchemaGrammar
+from lorator.connections import Connection
 from .. import OratorTestCase
 
 

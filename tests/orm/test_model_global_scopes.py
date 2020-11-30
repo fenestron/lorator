@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from .. import OratorTestCase
-from orator.orm.scopes import Scope
-from orator import Model
-from orator.connections import SQLiteConnection
-from orator.connectors import SQLiteConnector
+from lorator.orm.scopes import Scope
+from lorator import Model
+from lorator.connections import SQLiteConnection
+from lorator.connectors import SQLiteConnector
 
 
 class ModelGlobalScopesTestCase(OratorTestCase):

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from orator.pagination import Paginator
+from lorator.pagination import Paginator
 from .. import OratorTestCase
 
 
