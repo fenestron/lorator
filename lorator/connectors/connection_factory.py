@@ -7,7 +7,8 @@ from .mysql_connector import MySQLConnector
 from .postgres_connector import PostgresConnector
 from .sqlite_connector import SQLiteConnector
 from .empty_connector import EmptyConnector
-from ..connections import MySQLConnection, PostgresConnection, SQLiteConnection, EmptyConnection
+from .rds_postgres_connector import RdsPostgresConnector
+from ..connections import MySQLConnection, PostgresConnection, SQLiteConnection, EmptyConnection, RdsPostgresConnection
 
 
 class ConnectionFactory(object):
@@ -18,6 +19,7 @@ class ConnectionFactory(object):
         "postgres": PostgresConnector,
         "pgsql": PostgresConnector,
         "empty": EmptyConnector,
+        "rds_postgres": RdsPostgresConnector,
     }
 
     CONNECTIONS = {
@@ -25,7 +27,8 @@ class ConnectionFactory(object):
         "mysql": MySQLConnection,
         "postgres": PostgresConnection,
         "pgsql": PostgresConnection,
-        "empty": EmptyConnection
+        "empty": EmptyConnection,
+        "rds_postgres": RdsPostgresConnection,
     }
 
     def make(self, config, name=None):
