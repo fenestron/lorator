@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "lorator"
-version = "0.9.9"
+version = "0.9.9.1"
 description = "The Orator ORM provides a simple yet beautiful ActiveRecord implementation."
 
 license = "MIT"
